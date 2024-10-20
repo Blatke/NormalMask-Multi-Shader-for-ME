@@ -1,19 +1,15 @@
-# 
-It's a mod as HS2 / AI-Shoujo Accessory / Outfit / Studio Item.
+# NormalMask-Multi Shader for ME
+It's a mod for letting MaterialEditor show corresponding options under the shader, _**Blake/NormalMask Multi**_, on its tab.
+The original code of the Unity shaderlab of this shader is on: https://github.com/Blatke/NormalMask-Multi.shader
 
 ## How to Use
-Download the **.zipmod** file for the latest version on the [Release](https://github.com/Blatke//releases) Page, then drag and drop it into your **/mods/** folder to finish installation, or use KKManager to install this mod.
+Download the **.zipmod** file for the latest version on the [Release](https://github.com/Blatke/NormalMask-Multi-Shader-for-ME/releases) Page, then drag and drop it into your **/mods/** folder to finish installation, or use KKManager to install this mod.
 
-In Chara Maker, go to the Outfit / Accessory Panel, on the tab of Top / Shoes / Chest, search by "blake" or the item name, referred on the list below, in the textbox to find the mod, and add it to your character.
+Go to **MaterialEditor** after selecting a particular object in Studio or Chara Maker, choose  _**Blake/NormalMask Multi**_ to substitue the current shader.
 
-In Studio, seach for "blake" or the item name, referred on the list below, in the QuickAccessBox tab to find the mod, and add it in your scene.
+Check this video for the detailed demonstration: https://youtu.be/6BTf3i4_je0
 
-Use MaterialEditor to adjust the color and other parameters. 
-
-In Studio you can enable the FK function on the Anim tab to activiate the item's FK nodes to rotate. 
-
-## List of Names
-
+To check more details on the options, please go to: https://github.com/Blatke/NormalMask-Multi.shader
 
 ## About Me
 Bl@ke

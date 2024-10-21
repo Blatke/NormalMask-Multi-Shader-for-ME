@@ -20,6 +20,11 @@ Check this video for the detailed demonstration: https://youtu.be/6BTf3i4_je0
 
 To check more details on the options, please go to: https://github.com/Blatke/NormalMask-Multi.shader
 
+## Troubleshooting
+When importing a purple normal texture on MaterialEditor in Studio, the bump effect and shadow look weird that it involves artifacts. It's because HS2 / AI-Shoujo, powered by Unity Engine, uses [DXT5nm compression](http://wiki.polycount.com/wiki/Normal_Map_Compression) to treat normal maps, and thus it requires the normal textures imported in runtime should be DXT5nm in which the texture's red and alpha channels are swapped, by which reason the normal texutres we export from Studio by MaterialEditor are usually pink instead of purple. 
+
+The easy way to deal with it is to use some tool like [Normal Map Tool](https://www.patreon.com/posts/99107961) to convert your purple normal textue into a pink DXT5nm one and then import it in the runtime of the game.
+
 ## About Me
 Bl@ke
 
